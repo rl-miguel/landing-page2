@@ -80,8 +80,9 @@
 
 }
 
-.content-images{
-    display:flex;
+.content-images img{
+    max-width:200px;
+   
    
    
    
