@@ -50,6 +50,7 @@
 .top-caption{
     font-size:18px;
     color:#E5E7EB;
+    max-width:450px;
 }
 
 .top-content{
@@ -59,7 +60,14 @@
 }
 .top-button button{
     background-color:#3882F6;
-
+    font-size:15px;
+    border-color:#3882F6;
+    padding:8px;
+     width:130px;
+     margin-top:10px;
+     color:#E5E7EB;
+     font-weight:900;
+     border-radius:12px;
 }
 
 .content{
@@ -107,3 +115,4 @@
     font-size:18px;
    margin-left:1070px;
 }
+
