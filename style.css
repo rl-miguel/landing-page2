@@ -1,0 +1,58 @@
+*{
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header{
+    background-color:#1F2937;
+    height:15vh;
+    width:100vw;
+    display:flex;
+    justify-content:space-between;
+    margin-right:40px;
+    
+}
+
+.header-logo,
+.header-links{
+    margin-top:15px;
+}
+
+.header-logo{
+    color:#F9FAF8;
+    margin-left:450px;
+    font-size:24px;
+  
+}
+
+.header-links{
+    color:white;
+    display:flex;
+    margin-right:450px;
+}
+
+.top-page{
+    background-color: #1F2937;
+    height:40vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+}
+
+.top-title{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FAF8;
+
+}
+
+.top-caption{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.top-button button{
+    background-color:#3882F6;
+
+}
