@@ -9,7 +9,7 @@
     height:15vh;
     width:100vw;
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     margin-right:40px;
     
 }
@@ -21,7 +21,7 @@
 
 .header-logo{
     color:#F9FAF8;
-    margin-left:450px;
+    
     font-size:24px;
   
 }
@@ -29,7 +29,7 @@
 .header-links{
     color:white;
     display:flex;
-    margin-right:450px;
+    margin-left: 570px;
 }
 
 .top-page{
@@ -37,7 +37,7 @@
     height:40vh;
     width:100vw;
     display:flex;
-    justify-content:center;
+   
 }
 
 .top-title{
@@ -52,7 +52,37 @@
     color:#E5E7EB;
 }
 
+.top-content{
+    max-width:500px;
+    margin-left:20%;
+    margin-right:20px;
+}
 .top-button button{
     background-color:#3882F6;
 
+}
+
+.content{
+    display:flex;
+    width:100vw;
+    height:25vh;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.content-title{
+    font-size: 36px;
+    font-weight:900px;
+    color:#1F2937;
+
+    margin:50px;
+
+}
+
+.content-images{
+    display:flex;
+   
+   
+   
 }
