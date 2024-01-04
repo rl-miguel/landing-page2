@@ -126,7 +126,8 @@
 
 .quote-author{
     font-size:18px;
-   margin-left:1070px;
+   margin-left:1050px;
+   font-weight:900;
 }
 
 .end-page{
@@ -140,23 +141,50 @@
 }
 
 .advert{
-    width:60vw;
+    width:55vw;
     height:15vh;
     background-color:#3882F6;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:flex-start;
+    border-radius:12px;
 }
 
 .advert-title{
     font-size:24px;
     color:#F9FAF8;
+    font-weight:900;
 }
 
-.advert-content{}
+.advert-content,
+.advert-title{
+    margin-left:130px;
+}
+
+.advert-content{
+    font-size:18px;
+    color:#F9FAF8;
+    font-weight:100;
+}
 
 .advert-btn{
-    align-self:center;
+    align-self:flex-end;
+    margin-top:-40px;
+    margin-right:200px;
+    
  
+}
+
+.advert-btn button{
+    background-color:#3882F6;
+    color:#F9FAF8;
+    font-size:15px;
+    border-color:#F9FAF8;
+    padding:8px;
+    width:130px;
+    
+     color:#E5E7EB;
+     font-weight:900;
+     border-radius:12px;
 }
