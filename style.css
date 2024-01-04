@@ -3,6 +3,10 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body{
+    background-color:#1F2937;
+}
+
 
 .header{
     background-color:#1F2937;
@@ -72,6 +76,7 @@
 
 .content{
     display:flex;
+    background-color: white;
     width:100vw;
     height:60vh;
     flex-direction:column;
@@ -187,4 +192,17 @@
      color:#E5E7EB;
      font-weight:900;
      border-radius:12px;
+}
+
+.footer{
+    width:100vw;
+    height:10vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-text{
+    font-size:18px;
+    color:#E5E7EB;
 }
