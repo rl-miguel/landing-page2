@@ -119,6 +119,10 @@ body{
     color:#1F2937;
 }
 
+.content-captions p{
+    text-align:center;
+}
+
 
 .quote-section{
     padding:110px;
